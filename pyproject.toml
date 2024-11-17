@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "cvxcrypto"
+version = "0.0.0"
+description = ""
+authors = ["Kasper Johansson"]
+readme = "README.md"
+repository = "https://github.com/cvxgrp/simulator"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "*"
+cvxpy = "*"
+xarray = "*"
+matplotlib = "*"
+seaborn = "^0.13.2"
+yfinance = "^0.2.43"
+cvxcovariance = "^0.1.5"
+tqdm = "^4.66.5"
+statsmodels = "^0.14.4"
+arch = "^7.2.0"
+mosek = "^10.2.8"
+
+[tool.poetry.group.test.dependencies]
+pytest = "8.3.3"
+pytest-cov = "5.0.0"
+pre-commit = "3.8.0"
+
+[tool.poetry.group.dev.dependencies]
+loguru = "*"
+cvxpy-base = "1.5.3"
+clarabel = "0.9.0"
+tinycta = "0.7.1"
+ipykernel = "6.29.5"
+refinitiv-data = "*"
+
+[build-system]
+requires = ["poetry>=1.6.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = ["E", "F", "I"]
+line-length = 120
+target-version = "py310"
+exclude = [
+    "*__init__.py",
+]
