@@ -22,7 +22,7 @@ mosek = "^10.2.8"
 
 [tool.poetry.group.test.dependencies]
 pytest = "8.3.3"
-pytest-cov = "5.0.0"
+pytest-cov = "6.0.0"
 pre-commit = "3.8.0"
 
 [tool.poetry.group.dev.dependencies]
