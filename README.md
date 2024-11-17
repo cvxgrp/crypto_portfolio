@@ -1,6 +1,6 @@
 # Crypto portfolios
 
-This code repository accompanies the paper [Simple and Effective Portfolio Construction with Crypto Assets](https://web.stanford.edu/~boyd/papers/crypto_portfolio.html)
+This code repository accompanies the paper [Simple and Effective Portfolio Construction with Crypto Assets](https://web.stanford.edu/~boyd/papers/crypto_portfolio.html).
 
 
 ## Poetry
